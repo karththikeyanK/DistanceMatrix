@@ -13,7 +13,8 @@ To use the Google Maps Distance Matrix API, make sure to add your API key in the
 You can access the Swagger documentation for this project by visiting the following URL: [http://localhost:8090/swagger-ui/index.html#/](http://localhost:8090/swagger-ui/index.html#/)
 
 Request:
-`[
+```json
+[
     {
         "id": 1,
         "latitude": 6.9355,
@@ -64,11 +65,13 @@ Request:
         "latitude": 6.9146,
         "longitude": 79.8591
     }
-]`
+]
+```
 
 response image(Swagger3): ![response.png](src%2Fmain%2Fresources%2Fimages%2Fresponse.png)
 optimize path response(Swagger3):![optimize_path.png](src%2Fmain%2Fresources%2Fimages%2Foptimize_path.png)
-`{
+```json
+{
     "status": "SUCCESS",
     "msg": "Success",
     "data": {
@@ -160,8 +163,11 @@ optimize path response(Swagger3):![optimize_path.png](src%2Fmain%2Fresources%2Fi
         "totalDistance": 20880,
         "totalTime": 5729
     }
-}`
+}
+```
 
 
 ### REFERENCES
 Google Maps Distance Matrix API: [https://developers.google.com/maps/documentation/distance-matrix/overview](https://developers.google.com/maps/documentation/distance-matrix/overview)
+
+Contact : kkarththi15@gmail.com
