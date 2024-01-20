@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: GOOGLE-MAP-SERVICE
+
+google:
+  api:
+    key: <YOUR_GOOGLE_API_KEY>
+
+server:
+  port: 8090
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  openapi:
+    dev-url: http://localhost:8090
+    prod-url: https://bezkoder-api.com
